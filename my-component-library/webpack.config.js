@@ -7,7 +7,7 @@ module.exports = {
         MyComponent: "./src/components/MyComponent",
     },
     output: {
-        path: path.resolve(__dirname, 'build/static/js'),
+        path: path.resolve(__dirname, 'public/build/static/js'),
         filename: "[name].bundle.js",
         libraryTarget: "umd",
         library: "[name]",
