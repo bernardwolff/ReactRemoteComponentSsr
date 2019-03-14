@@ -15,7 +15,7 @@ const Index = (props) => {
 
 Index.getInitialProps = async function() {
 
-    const res = await fetch('http://localhost:3001/MyComponent.bundle.js')
+    const res = await fetch('http://localhost:3001/build/static/js/MyComponent.bundle.js')
     const script = await res.text()
 
     return { MyComponent: script }
