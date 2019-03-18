@@ -13,7 +13,7 @@ yarn run start
 ```
 3. In the my-app folder, run the following command to run the consuming Next.js app.
 ```
-    npm run dev
+npm run dev
 ```
 
 
