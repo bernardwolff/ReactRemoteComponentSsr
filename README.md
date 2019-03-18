@@ -15,6 +15,7 @@ yarn run start
 ```
 npm run dev
 ```
+4. In your browser, go to http://localhost:3000/
 
 
 ## Limitations
