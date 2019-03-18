@@ -9,6 +9,9 @@ class MyComponent extends Component {
         this.state = {data: {msg: 'data not loaded'}};
     }
     componentDidMount() {
+        // This never gets executed when rendering the component server-side.
+        // This is "correct" since componentDidMount is not supposed to execute server-side.
+        // Where can I do this fetch?
         fetch(jsonApi)
         .then(response => response.json())
         .then(json => this.setState({data: json}))
